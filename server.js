@@ -36,7 +36,7 @@ app.get('/api/getuser' ,(req,res)=>{
 console.log(process.env.EMAIL_PASSWORD);
 
 
-app.listen(5000, () => {
+app.listen(8000, () => {
     console.log("listening to port 8000")
 })
 
